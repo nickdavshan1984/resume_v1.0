@@ -137,21 +137,14 @@ $las-left: 0 0 0 15px;
       margin: 0 0 47px 0;
    }
 
-   &__soft-skills {
-   }
 }
 .contacts {
    &__header {
       margin: $ha-bottom;
    }
-
-   &__items {
-   }
 }
 
 .items-contacts {
-   &__item {
-   }
    &__item:not(:last-child) {
       margin: 0 0 5px 0;
    }
@@ -160,12 +153,8 @@ $las-left: 0 0 0 15px;
       color: #fff;
    }
 }
-.item-contacts {
-}
-.item-info-aside {
-   &__link {
-   }
-}
+
+
 .link-item-info {
    color: #fff;
    opacity: 0.5;
@@ -209,20 +198,8 @@ $las-left: 0 0 0 15px;
    &__experience {
       margin: 0 0 45px 0;
    }
-
-   &__education {
-   }
 }
-.about {
-   &__title {
-   }
 
-   &__header {
-   }
-
-   &__text {
-   }
-}
 .header-doc {
    font-size: 45px;
    font-weight: 700;
@@ -230,16 +207,6 @@ $las-left: 0 0 0 15px;
 }
 .text-about {
    max-width: 400px;
-}
-.projects-main {
-   &__header {
-   }
-
-   &__list {
-   }
-
-   &__link {
-   }
 }
 .list-projects {
    li::marker {
@@ -263,9 +230,6 @@ $las-left: 0 0 0 15px;
    &__header {
       margin: 0 0 12px 0;
    }
-
-   &__items {
-   }
 }
 .items-experience {
    max-width: 521px;
@@ -282,13 +246,8 @@ $las-left: 0 0 0 15px;
    &__data {
       margin: 0 0 8px 0;
    }
-
-   &__list {
-   }
 }
 
-.list-experince {
-}
 .education {
    &__header {
       margin: 0 0 12px 0;
