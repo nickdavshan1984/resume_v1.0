@@ -428,66 +428,74 @@ body {
     padding: 0 0 50px 0;
   }
 }
-@media (max-width: 500px) {
-  body {
-    font-size: 10px;
-  }
-  .header-doc {
-    font-size: 20px;
-  }
-  .header-section {
-    font-size: 15px;
-  }
-  .title-function {
-    font-size: 12px;
-  }
-  .info-aside {
-    padding: 30px 0 50px 30px;
-  }
-  .info-aside__contacts {
-    padding: 0 0 30px 0;
-  }
-  .info-aside__tech-skills {
-    padding: 0 0 30px 0;
-  }
-  .main__body {
-    padding: 30px 0 50px 0;
-  }
-  .main__projects {
-    margin: 0 0 30px 0;
-  }
-  .main__experience {
-    margin: 0 0 30px 0;
-  }
+/*@media (max-width: 500px) {
+   body {
+      font-size: 10px;
+   }
+   .header-doc {
+      font-size: 20px;
+   }
+   .header-section {
+      font-size: 15px;
+   }
+   .title-function {
+      font-size: 12px;
+   }
+   .info-aside {
+      padding: 30px 0 50px 30px;
+      &__contacts {
+         padding: 0 0 30px 0;
+      }
+      &__tech-skills {
+         padding: 0 0 30px 0;
+      }
+   }
+   .main {
+      &__body {
+         padding: 30px 0 50px 0;
+      }
+      &__projects {
+         margin: 0 0 30px 0;
+      }
+      &__experience {
+         margin: 0 0 30px 0;
+      }
+   }
 }
+*/
 /* ---------- mobile small ----------- */
-@media (max-width: 420px) {
-  body {
-    font-size: 8px;
-  }
-  .header-section {
-    font-size: 13px;
-  }
-  .tech-skills__list {
-    margin: 0 0 0 14px;
-  }
-  .info-aside {
-    padding: 20px 0 30px 20px;
-  }
-  .title-main {
-    font-size: 14px;
-  }
-  .list-main {
-    padding: 0 0 0 10px;
-  }
+/*@media (max-width: 420px) {
+   body {
+      font-size: 8px;
+   }
+   .header-section {
+      font-size: 13px;
+   }
+   .tech-skills {
+      &__list {
+         margin: 0 0 0 14px;
+      }
+   }
+   .info-aside {
+      padding: 20px 0 30px 20px;
+   }
+   .title-main {
+      font-size: 14px;
+   }
+   .list-main {
+      padding: 0 0 0 10px;
+   }
 }
+
 @media (max-width: 350px) {
-  body {
-    font-size: 7px;
-  }
+   body {
+      font-size: 7px;
+   }
 }
+
 @media (max-width: 320px) {
-  [class*=__container] {
-    padding: 0 5px;
-  }
-}/*# sourceMappingURL=style.css.map */
+   [class*=__container] {
+      padding: 0 5px;
+   }
+}
+*//*# sourceMappingURL=style.css.map */
