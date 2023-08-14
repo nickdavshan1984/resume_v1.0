@@ -378,7 +378,7 @@ body {
 /* ---------- mobile ----------- */
 @media (max-width: 767.98px) {
   body {
-    font-size: 20px;
+    font-size: 12px;
   }
   [class*=__container] {
     padding: 0 30px;
@@ -414,6 +414,9 @@ body {
   }
 }
 @media (max-width: 650px) {
+  body {
+    font-size: 30px;
+  }
   .info-aside {
     flex-direction: column;
     padding: 50px 0 80px 30px;
