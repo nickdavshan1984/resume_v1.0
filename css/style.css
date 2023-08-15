@@ -378,7 +378,7 @@ body {
 /* ---------- mobile ----------- */
 @media (max-width: 767.98px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
   [class*=__container] {
     padding: 0 30px;
@@ -415,17 +415,41 @@ body {
 }
 @media (max-width: 650px) {
   body {
+    font-size: 16px;
+  }
+  .header-doc {
     font-size: 30px;
+  }
+  .header-section {
+    font-size: 22px;
   }
   .info-aside {
     flex-direction: column;
-    padding: 50px 0 80px 30px;
+    padding: 50px 0 50px 30px;
   }
   .info-aside__contacts {
-    padding: 0 0 50px 0;
+    margin: 0 0 50px 0;
   }
   .info-aside__tech-skills {
-    padding: 0 0 50px 0;
+    margin: 0 0 50px 0;
+  }
+  .tech-skills__list {
+    margin: 0 0 0 20px;
+  }
+  .soft-skills__list {
+    margin: 0 0 0 20px;
+  }
+  .list-main {
+    padding: 0 0 0 20px;
+  }
+  .item-experience__title {
+    margin: 0 0 10px 2px;
+  }
+  .data {
+    font-size: 14px;
+  }
+  .item-experience__data {
+    margin: 0 0 10px 2px;
   }
 }
 /*@media (max-width: 500px) {
