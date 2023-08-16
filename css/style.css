@@ -434,4 +434,9 @@ body {
     margin: 0 0 10px 2px;
   }
 }
-/* ---------- mobile small ----------- *//*# sourceMappingURL=style.css.map */
+/* ---------- mobile small ----------- */
+@media (max-width: 320px) {
+  .main__body {
+    background: #08cc08;
+  }
+}/*# sourceMappingURL=style.css.map */
