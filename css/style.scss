@@ -11,20 +11,18 @@ body {
 }
 
 [class*="__container"] {
+   display: flex;
+   justify-content: flex-start;
    margin: 0 auto;
    padding: 0 15px;
-   max-width: 1280px;
+   max-width: 980px;
 }
 
 .wrapper {
    overflow: hidden;
    min-height: 100%;
-   &__container {
-      display: flex;
-      justify-content: flex-start;
-      //align-items: center;
-   }
 }
+
 .header-section {
    font-size: 22px;
    font-weight: 700;
@@ -91,25 +89,25 @@ $las-left: 0 0 0 15px;
 
 /*-------- aside -------*/
 .aside {
-   flex: 0 1 29.6%;
+   flex: 0 1 39%;
    min-height: 100%;
 
    &__body {
       display: flex;
       flex-direction: column;
       background: #1e2939;
-      padding: 0 0 370px 0;
+      padding: 0 0 100vh 0;
    }
 
    &__photo {
-      margin: 40px 0 50px 0;
-      padding: 0 0 96% 0;
+      margin: 40px 0 0 0;
+      padding: 0 0 95.5% 0;
    }
 
    &__info {
       display: flex;
       flex-direction: column;
-      padding: 0 0 0 40px;
+      padding: 50px 0 0 40px;
    }
 }
 .photo-aside {
@@ -182,7 +180,7 @@ $las-left: 0 0 0 15px;
 
 /*-------- main -------*/
 .main {
-   flex: 0 1 70.4%;
+   flex: 0 1 61%;
    &__body {
       padding: 100px 0 0 88px;
    }
@@ -263,11 +261,6 @@ $las-left: 0 0 0 15px;
    body {
       font-size: 13px;
    }
-   .wrapper {
-      &__container {
-         max-width: 1000px;
-      }
-   }
    .header-doc {
       font-size: 40px;
    }
@@ -344,10 +337,10 @@ $las-left: 0 0 0 15px;
       &__photo {
          flex: 0 1 30%;
          margin: 0;
-         padding: 0 0 28.5% 0;
+         padding: 0 0 27% 0;
       }
       &__info {
-         padding: 30px 0 0 50px;
+         padding: 30px 0 4% 50px;
       }
      
    }
@@ -373,24 +366,25 @@ $las-left: 0 0 0 15px;
       }
    }
 }
-
-@media (max-width: 920px) {
-   body {
-      font-size: 11px;
-   }
+@media (max-width: 940px) {
    [class*=__container] {
       max-width: 900px;
    }
+   .aside {
+      &__photo {
+         padding: 0 0 28% 0;
+      }
+      &__info {
+         padding: 30px 0 2% 50px;
+      }
+   }
+}
+@media (max-width: 920px) {
    .header-section {
       font-size: 17px;
    }
    .header-doc {
       font-size: 27px;
-   }
-   .aside {
-      &__info {
-         padding: 30px 0 0 40px;
-      }
    }
    .main {
       &__about {
@@ -398,8 +392,17 @@ $las-left: 0 0 0 15px;
       }
    }
 }
-
-@media (max-width: 810px) {
+@media (max-width: 866px) {
+   .aside {
+      &__photo {
+         padding: 0 0 28.5% 0;
+      }
+      &__info {
+         padding: 30px 0 1% 50px;
+      }
+   }
+}
+@media (max-width: 814px) {
    body {
       font-size: 10px;
    }
@@ -430,12 +433,13 @@ $las-left: 0 0 0 15px;
       font-size: 30px;
    }
    .header-section {
-      font-size: 22px;
+      font-size: 18px;
    }
    
    .aside {
       &__info {
-             padding: 30px 50px 30px 50px
+         padding: 25px 0 25px 30px;
+         
       }
       &__body {
          flex-direction: column;
@@ -443,18 +447,14 @@ $las-left: 0 0 0 15px;
       &__photo {
          padding: 0 0 95.5% 0;
       }
-      &__info {
-         padding: 30px 0 30px 30px;
-      }
    }
    .info-aside {
       flex-direction: column;
-      padding: 50px 0 50px 30px;
       &__contacts {
-         margin: 0 0 50px 0;
+         margin: 0 0 20px 0;
       }
       &__tech-skills {
-         margin:  0 0 50px 0;
+         margin: 0 0 20px 0;
       }
    }
   .tech-skills {
@@ -469,11 +469,34 @@ $las-left: 0 0 0 15px;
    }
    .list-main {
       font-size: 8px;
-      padding: 0 0 0 10px;
    }
    .main {
       &__body {
-         padding: 50px 30px 100px 30px;
+         padding: 25px 30px 100px 30px;
+      }
+      &__about {
+         margin: 0 0 15px 0;
+      }
+      &__projects {
+         margin: 0 0 25px 0;
+      }
+      &__experienca {
+         margin: 0 0 25px 0;
+      }
+   }
+   .projects-main {
+      &__list {
+         padding: 0 0 0 10px;
+      }
+   }
+   .experience-main {
+      &__header {
+         margin: 0 0 8px 0;
+      }
+   }
+   .items-experience {
+      &__item:not(:last-child) {
+         margin: 0 0 10px 0;
       }
    }
    .item-experience {
@@ -485,10 +508,17 @@ $las-left: 0 0 0 15px;
       font-size: 14px;
    }
    .item-experience {
+      &__title {
+         margin: 0 0 5px 2px;
+      }
       &__data {
-         margin: 0 0 10px 2px;
+         margin: 0 0 5px 2px;
+      }
+      &__list {
+         padding: 0 0 0 15px;
       }
    }
+   
 }
 
 /* ---------- mobile small ----------- */
@@ -505,8 +535,8 @@ $las-left: 0 0 0 15px;
       font-size: 10px;
   }
    .main {
-   &__body {
-      background: #08cc08;
-   }
+      &__body {
+         background: #08cc08;
+      }
   }
 }
