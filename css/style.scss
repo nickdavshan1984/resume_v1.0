@@ -423,11 +423,16 @@ $las-left: 0 0 0 15px;
       font-size: 14px;
    }
    [class*=__container] {
-      padding: 0 30px;
+      padding: 0;
+   }
+   
+   .header-doc{
+      font-size: 30px;
    }
    .header-section {
-      font-size: 20px;
+      font-size: 22px;
    }
+   
    .aside {
       &__info {
              padding: 30px 50px 30px 50px
@@ -443,40 +448,6 @@ $las-left: 0 0 0 15px;
       }
    }
    .info-aside {
-      &__contacts {
-         margin: 0 100px 0 0;
-      }
-      &__tech-skills {
-          margin: 0 100px 0 0;
-      }
-   }
-}
-
-@media (max-width: 700px) {
-   .info-aside {
-      &__contacts {
-         margin: 0 80px 0 0;
-      }
-      &__tech-skills {
-         margin: 0 80px 0 0;
-      }
-   }
-}
-
-@media (max-width: 650px) {
-   body {
-      font-size: 14px;
-   }
-   [class*=__container] {
-      padding: 0;
-   }
-   .header-doc{
-      font-size: 30px;
-   }
-   .header-section {
-      font-size: 22px;
-   }
-   .info-aside {
       flex-direction: column;
       padding: 50px 0 50px 30px;
       &__contacts {
@@ -486,7 +457,7 @@ $las-left: 0 0 0 15px;
          margin:  0 0 50px 0;
       }
    }
-   .tech-skills {
+  .tech-skills {
       &__list {
          margin: 0 0 0 20px;
       }
@@ -520,73 +491,15 @@ $las-left: 0 0 0 15px;
    }
 }
 
-@media (max-width: 500px) {
-   body {
-      font-size: 10px;
-   }
-   .header-doc {
-      font-size: 20px;
-   }
-   .header-section {
-      font-size: 15px;
-   }
-   .title-function {
-      font-size: 12px;
-   }
-   .info-aside {
-      padding: 30px 0 50px 30px;
-      &__contacts {
-         padding: 0 0 30px 0;
-      }
-      &__tech-skills {
-         padding: 0 0 30px 0;
-      }
-   }
-   .main {
-      &__body {
-         padding: 30px 0 50px 0;
-      }
-      &__projects {
-         margin: 0 0 30px 0;
-      }
-      &__experience {
-         margin: 0 0 30px 0;
-      }
-   }
-}
-
 /* ---------- mobile small ----------- */
 @media (max-width: 420px) {
-   body {
-      font-size: 8px;
-   }
-   .header-section {
-      font-size: 13px;
-   }
-   .tech-skills {
-      &__list {
-         margin: 0 0 0 14px;
-      }
-   }
-   .info-aside {
-      padding: 20px 0 30px 20px;
-   }
-   .title-main {
-      font-size: 14px;
-   }
-   .list-main {
-      padding: 0 0 0 10px;
-   }
+ 
 }
 
 @media (max-width: 350px) {
-   body {
-      font-size: 7px;
-   }
+  
 }
 
 @media (max-width: 320px) {
-   [class*=__container] {
-      padding: 0 5px;
-   }
+  
 }
