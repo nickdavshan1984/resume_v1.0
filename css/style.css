@@ -437,7 +437,7 @@ body {
 /* ---------- mobile small ----------- */
 @media (max-width: 320px) {
   .header-section {
-    font-size: 20px;
+    font-size: 10px;
   }
   .main__body {
     background: #08cc08;
