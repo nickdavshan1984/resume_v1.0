@@ -501,7 +501,10 @@ $las-left: 0 0 0 15px;
 }
 
 @media (max-width: 320px) {
-  .main {
+   .header-section {
+      font-size: 20px;
+  }
+   .main {
    &__body {
       background: #08cc08;
    }
