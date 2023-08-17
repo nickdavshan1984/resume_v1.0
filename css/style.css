@@ -460,6 +460,20 @@ body {
   }
 }
 /* ---------- mobile small ----------- */
+@media (max-width: 420px) {
+  body {
+    font-size: 16px;
+  }
+  .header-doc {
+    font-size: 25px;
+  }
+  .header-section {
+    font-size: 20px;
+  }
+  .title-main {
+    font-size: 18px;
+  }
+}
 @media (max-width: 320px) {
   .header-section {
     font-size: 10px;
