@@ -383,7 +383,7 @@ body {
 /* ---------- mobile ----------- */
 @media (max-width: 767.98px) {
   body {
-    font-size: 14px;
+    font-size: 18px;
   }
   [class*=__container] {
     padding: 0;
@@ -392,6 +392,12 @@ body {
     font-size: 30px;
   }
   .header-section {
+    font-size: 22px;
+  }
+  .list-main {
+    font-size: 12px;
+  }
+  .title-main {
     font-size: 18px;
   }
   .aside__info {
@@ -417,9 +423,6 @@ body {
   }
   .soft-skills__list {
     margin: 0 0 0 20px;
-  }
-  .list-main {
-    font-size: 8px;
   }
   .main__body {
     padding: 25px 30px 100px 30px;
